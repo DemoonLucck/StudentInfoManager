@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/big_image_height"
+              android:background="@color/holo_blue_light"
+              android:orientation="vertical"
+              android:padding="@dimen/spacing_largest"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/button_height_tall"
+        android:layout_height="@dimen/button_height_tall"
+        android:layout_marginBottom="@dimen/spacing_larger"
+        android:layout_marginTop="@dimen/button_height_smaller"
+        android:src="@drawable/iclogo"/>
+
+
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_marginTop="@dimen/button_height_smaller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="管理员"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        />
+
+
+
+</LinearLayout>
